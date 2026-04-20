@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
+Console.WriteLine("hola mundo");
 
 // CONFIGURACION DE CORS PARA PERMITIR PETICIONES DESDE EL FRONTEND
 builder.Services.AddCors(options =>
