@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{84650EFC-08A7-491D-9222-65D2D5449854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{FCB4CE60-EF2E-436C-9C4E-13EA40D590A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{5D0DAC08-B6D3-48B9-A229-9B037D010BEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{B4C2FA75-0B98-48C6-8642-6E5284B16535}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Web\index.html = Web\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{FFA97958-4CB8-4BA2-B829-6209D2B7CFAE}"
+	ProjectSection(SolutionItems) = preProject
+		Web\css\style.css = Web\css\style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "javascript", "javascript", "{B5888991-A533-4F30-A911-4E3532A3CAEE}"
+	ProjectSection(SolutionItems) = preProject
+		Web\javascript\app.js = Web\javascript\app.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{1C647F9E-8584-496D-BB87-0281AB0FA20E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84650EFC-08A7-491D-9222-65D2D5449854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84650EFC-08A7-491D-9222-65D2D5449854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84650EFC-08A7-491D-9222-65D2D5449854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84650EFC-08A7-491D-9222-65D2D5449854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB4CE60-EF2E-436C-9C4E-13EA40D590A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB4CE60-EF2E-436C-9C4E-13EA40D590A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB4CE60-EF2E-436C-9C4E-13EA40D590A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB4CE60-EF2E-436C-9C4E-13EA40D590A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D0DAC08-B6D3-48B9-A229-9B037D010BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0DAC08-B6D3-48B9-A229-9B037D010BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D0DAC08-B6D3-48B9-A229-9B037D010BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D0DAC08-B6D3-48B9-A229-9B037D010BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C2FA75-0B98-48C6-8642-6E5284B16535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C2FA75-0B98-48C6-8642-6E5284B16535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C2FA75-0B98-48C6-8642-6E5284B16535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C2FA75-0B98-48C6-8642-6E5284B16535}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FFA97958-4CB8-4BA2-B829-6209D2B7CFAE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B5888991-A533-4F30-A911-4E3532A3CAEE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1C647F9E-8584-496D-BB87-0281AB0FA20E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {277A0BCA-839E-4354-9B01-442EBE488236}
+	EndGlobalSection
+EndGlobal
